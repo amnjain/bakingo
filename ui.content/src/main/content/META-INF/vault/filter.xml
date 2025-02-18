@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/Bakingo" mode="merge"/>
+    <filter root="/content/Bakingo" mode="merge"/>
+    <filter root="/content/dam/Bakingo" mode="merge">
+        <exclude pattern="/content/dam/Bakingo(/.*)?"/>
+        <include pattern="/content/dam/Bakingo/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/Bakingo/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/Bakingo" mode="merge"/>
+</workspaceFilter>

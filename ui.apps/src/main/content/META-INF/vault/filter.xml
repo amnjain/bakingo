@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/Bakingo/clientlibs"/>
+    <filter root="/apps/Bakingo/components"/>
+    <filter root="/apps/Bakingo/i18n"/>
+</workspaceFilter>
